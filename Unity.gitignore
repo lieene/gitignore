@@ -10,8 +10,11 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-# Never ignore Asset meta data
-!/[Aa]ssets/**/*.meta
+# Unity3D generated folder meta files
+
+# Ignore only fold meta(and meta of file without postfix), then Never ignore other asset meta
+/[Aa]ssets/**/*.meta
+!/[Aa]ssets/**/*.*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
