@@ -10,8 +10,6 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-# Unity3D generated folder meta files
-
 # Ignore only fold meta(and meta of file without postfix), then Never ignore other asset meta
 /[Aa]ssets/**/*.meta
 !/[Aa]ssets/**/*.*.meta
